@@ -1,11 +1,23 @@
+body *{
+    font-family: "Roboto", sans-serif;
+}
+
 body{
      background: url(amarelo.png) no-repeat top center/cover;
 }
 
 #caixaim{
     width: 350px;
-    height: 600px;
     border: 1px solid black;
     margin: auto;
     
+}
+
+#logo {
+    text-align: center;
+}
+
+#logo img {
+    width: 110px;
+
 }
