@@ -6,6 +6,7 @@
 
 body *{
     font-family: "Roboto", sans-serif;
+    color: rgb(168, 168, 6);
 }
 
 body{
@@ -46,4 +47,6 @@ ul li a {
     padding: 15px 22px;
 
     background: rgba(228, 228, 105, 0.562);
+    border: 1px solid rgb(233, 233, 55);
+    border-radius: 10px;
 }
