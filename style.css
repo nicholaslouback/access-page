@@ -11,6 +11,7 @@ body *{
 
 body{
      background: url(amarelo.png) no-repeat top center/cover;
+     background-attachment: fixed;
 }
 
 #caixaim{
@@ -27,7 +28,7 @@ body{
 }
 
 #logo p {
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 24px;
 }
 
@@ -37,6 +38,8 @@ ul{
     display: flex;
     flex-direction: column;
     gap: 17px;
+
+    padding: 25px 0px;
 }
 
 ul li a {
@@ -49,4 +52,31 @@ ul li a {
     background: rgba(228, 228, 105, 0.562);
     border: 1px solid rgb(233, 233, 55);
     border-radius: 10px;
+}
+
+ul li :hover {
+    box-shadow: 5px 5px 10px rgb(230, 230, 118);
+    border-radius: 20%;
+    padding: 20px;
+}
+
+#redessociais {
+    display: flex;
+    gap: 18px;
+    padding: 5px;
+    justify-content: center;
+}
+
+#redessociais a{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+#redessociais :hover{
+    box-shadow: 5px 5px 10px rgb(230, 230, 118);
+    border-radius: 30%;
+    padding: 5px;
 }
