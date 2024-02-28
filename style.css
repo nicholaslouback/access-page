@@ -6,11 +6,14 @@
 
 body *{
     font-family: "Roboto", sans-serif;
-    color: rgb(168, 168, 6);
+    color: rgba(128, 128, 128, 0.87);
 }
 
 body{
-     background: url(amarelo.png) no-repeat top center/cover;
+     background: linear-gradient(to bottom, white, yellow);
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
      background-attachment: fixed;
 }
 
@@ -49,8 +52,7 @@ ul li a {
     align-items: center;
     padding: 15px 22px;
 
-    background: rgba(228, 228, 105, 0.562);
-    border: 1px solid rgb(233, 233, 55);
+    background: rgba(255, 255, 255, 0.801);
     border-radius: 10px;
 }
 
