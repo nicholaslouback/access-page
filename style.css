@@ -57,7 +57,7 @@ ul li a {
 }
 
 ul li :hover {
-    box-shadow: 5px 5px 10px rgb(230, 230, 118);
+    box-shadow: 8px 8px 10px rgb(230, 230, 118);
     padding: 20px;
 }
 
